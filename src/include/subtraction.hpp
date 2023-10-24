@@ -1,5 +1,8 @@
-#include "head.hpp"
-
+#pragma once
+//minus
 void subtraction() {
-    std::cout << "subtraction" << std::endl;
+    float number1 = getInputNumber(1);
+    float number2 = getInputNumber(2);
+    float result = number1 - number2;
+    printResult(result);
 }

@@ -5,10 +5,12 @@
 #include "subtraction.hpp"
 #include "multiply.hpp"
 #include "division.hpp"
+#include "prozent.hpp"
 
 void menu() {
+    std::cout << "\n+----------------------------------------------------------------------+" << std::endl;
     //Verfügbare modis anzeigen lassen
-    std::cout << "\nWähle deinen Modus:\n\n(1): Addieren\n(2): Subtrahieren\n(3): Multiplizieren\n(4): Dividieren\n(b): Beenden\n\nInput: ";
+    std::cout << "\nWähle deinen Modus:\n\n(1): Addieren\n(2): Subtrahieren\n(3): Multiplizieren\n(4): Dividieren\n(5): Prozentrechnung\n\n(b): Beenden\n\nInput: ";
 
     //"input" Variable erstellen
     char input = ' ';
@@ -33,6 +35,10 @@ void menu() {
         case '4': { //Case 4 Dividiert zahlen
             division();
             menu();
+            break;
+        }
+        case '5': {
+            prozentMenu();
             break;
         }
         case 'b': { //Case "b" Beendet das Programm

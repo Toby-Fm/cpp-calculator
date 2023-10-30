@@ -2,7 +2,7 @@
 
 void prozentMenu() {
     std::cout << "\n+----------------------------------------------------------------------+\n" << std::endl;
-    std::cout << "Für welchen zweck?\n\n(1): Prozentsatz eines Wertes (x% von x€)\n(2): Prozentsatzveränderung\n"/*(3): Prozentuale Verteilung\n(4): Prozentuale Steigerung oder Senkung\n\n(i): Info/Beschreibung ansehen\n*/"(b): Beenden\n\nInput: ";
+    std::cout << "Für welchen zweck?\n\n(1): Prozentsatz eines Wertes (x% von x€)\n(2): Prozentsatzveränderung\n(3): Prozentuale Verteilung\n(4): Prozentuale Steigerung oder Senkung\n\n(i): Info/Beschreibung ansehen\n(b): Beenden\n\nInput: ";
 
     char prozentInput = ' ';
     std::cin >> prozentInput;
@@ -25,8 +25,9 @@ void prozentMenu() {
             break;
         }
         case 'i': {
-            //Cooming soon
             //TODO: Beschreibungen der einzelnen M-Methoden hinschreiben
+            przInfo();
+            prozentMenu();
             break;
         }
         case 'b': {

@@ -5,7 +5,7 @@
 #include "subtraction.hpp"
 #include "multiply.hpp"
 #include "division.hpp"
-#include "prozent.hpp"
+#include "../prozentMenu.cpp"
 
 void menu() {
     std::cout << "\n+----------------------------------------------------------------------+" << std::endl;

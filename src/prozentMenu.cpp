@@ -24,7 +24,6 @@ void prozentMenu() {
             break;
         }
         case 'i': {
-            //TODO: Beschreibungen der einzelnen Methoden hinschreiben
             przInfo();
             prozentMenu();
             break;

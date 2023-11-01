@@ -1,5 +1,5 @@
 #include <iostream>
-#include "include/menu.hpp"
+#include "menu.cpp"
 
 int main() {
     menu(); //"menu" Funktion aus "menu.hpp" aufrufen

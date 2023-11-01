@@ -1,6 +1,9 @@
 #include <iostream>
 
 using namespace std;
+//cout << "+----------------------------------------------+\n" << endl;
+//cout << "|                                              |\n" << endl;
+//cout << "+----------------------------------------------+\n" << endl;
 
 void przEinesWertes_Info() {
     cout << "+--------------------------------+" << endl;
@@ -23,6 +26,17 @@ void przVeränderung_Info() {
     cout << "+--------------------------------+" << endl;
 }
 
+void przSteigungSenkung_Info() {
+    cout << "+---------------------------------------------+" << endl;
+    cout << "| Nummer 4 bezeiht sich auf die Berechnung    |" << endl;
+    cout << "| der prozentualen Veränderungen zwischen     |" << endl;
+    cout << "| einen alten Wert und einen neuen Wert, sei  |" << endl;
+    cout << "| es eine Steigerung (positive Veränderung)   |" << endl;
+    cout << "| oder eine Senkung (negative Veränderung),   |" << endl;
+    cout << "| ausgedrückt in Prozent                      |" << endl;
+    cout << "+---------------------------------------------+" << endl;
+}
+
 void przInfo() {
     cout << "+------------------------+" << endl;
     cout << "| ProzentsatzEinesWertes |" << endl;
@@ -40,6 +54,7 @@ void przInfo() {
     cout << "+-------------------------------------+" << endl;
     cout << "| Prozentuale Steigerung oder Senkung |" << endl;
     cout << "+-------------------------------------+" << endl;
+    przSteigungSenkung_Info();
 
     cout << "\n" << endl;
 }

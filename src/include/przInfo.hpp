@@ -30,15 +30,16 @@ void przInfo() {
     przEinesWertes_Info();
     
     cout << "\n" << endl;
-
     cout << "+------------------------+" << endl;
-    cout << "| ProzentsatzEinesWertes |" << endl;
+    cout << "| ProzentsatzVeränderung |" << endl;
     cout << "+------------------------+" << endl;
     przVeränderung_Info();
 
     cout << "\n" << endl;
 
-    cout << "+------------------------+" << endl;
-    cout << "| Cooming Soon |" << endl;
-    cout << "+------------------------+" << endl;
+    cout << "+-------------------------------------+" << endl;
+    cout << "| Prozentuale Steigerung oder Senkung |" << endl;
+    cout << "+-------------------------------------+" << endl;
+
+    cout << "\n" << endl;
 }

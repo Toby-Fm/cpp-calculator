@@ -14,7 +14,7 @@ string elementInput() {
     std::cout << "zu?" << std::endl;
     std::cin >> element2;
 
-    if (element1 = 'px' | 'PX' && element2 = 'em' | 'EM') {
+    if (element1 =^ 'px' | 'PX' && element2 = 'em' | 'EM') {
         std::cout << "hello" << std::endl;
     }
 }

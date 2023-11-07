@@ -36,6 +36,7 @@ void menu() {
             break;
         }
         case '6': {
+            webRechnung();
             break;
         }
         case 'b': { //Case "b" Beendet das Programm

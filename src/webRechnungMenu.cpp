@@ -12,8 +12,10 @@ void webRechnung() {
     std::cin >> input;
 
     switch (input) {
-        case 'R' | 'r': {
+        case 'R':
+        case 'r': {
             elementInput();
+            webRechnung();
             break;
         }
 
